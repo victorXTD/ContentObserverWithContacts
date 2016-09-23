@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onChange(boolean selfChange) {
             Log.v(TAG, "Contact data is changed.");
+            Toast.makeText(MainActivity.this, "联系人信息已被改变！", Toast.LENGTH_LONG).show();
         }
 
     }

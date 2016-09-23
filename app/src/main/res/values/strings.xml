@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ContentObserverWithContacts</string>
+    <string name="text">监控联系人</string>
 </resources>
